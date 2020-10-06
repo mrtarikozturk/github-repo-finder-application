@@ -2,37 +2,27 @@
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1.0"
-    />
-    <title>Starter Template - Materialize</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GitHub Repo Finder">
+    <meta name="keywords" content="GitHub Finder">
+    <meta name="author" content="Mr.Root">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <title>GitHub Repo Finder</title>
 
     <!-- CSS  -->
     <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link
-      href="css/materialize.css"
-      type="text/css"
-      rel="stylesheet"
-      media="screen,projection"
-    />
-    <link
-      href="css/style.css"
-      type="text/css"
-      rel="stylesheet"
-      media="screen,projection"
-    />
+      href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   </head>
+  
   <body class="black">
     <nav class="black lighten-1" role="navigation">
       <div class="nav-wrapper container">
         <a id="logo-container" href="#" class="brand-logo orange-text"
           >GitHub Repo</a
         >
-        <ul class="right hide-on-med-and-down">
+        <!-- <ul class="right hide-on-med-and-down">
           <li><a href="#">Navbar Link</a></li>
         </ul>
 
@@ -41,9 +31,11 @@
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger"
           ><i class="material-icons">menu</i></a
-        >
+        > -->
       </div>
     </nav>
+    
+    <!-- Form section -->
     <div class="section no-pad-bot" id="index-banner">
       <div class="container">
         <br /><br />
@@ -53,20 +45,26 @@
             <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix">location_searching</i>
-                <input id="icon_prefix" type="text" class="validate" />
+                <input id="icon_prefix" type="text" class="validate orange-text searchGitHub" />
                 <label for="icon_prefix">Search Repo</label>
-              </div>              
+              </div>
             </div>
           </form>
         </div>
       </div>
     </div>
 
+    <!-- Dsiplay Results -->
+    <div id="displayRepo">
+
+    </div>   
+
+    <!-- footer -->
     <footer class="page-footer orange">
       <div class="footer-copyright">
         <div class="container">
           Made by
-          <a class="orange-text text-lighten-3" href="http://materializecss.com"
+          <a class="orange-text text-lighten-3" href="#"
             >Materialize</a
           >
         </div>
