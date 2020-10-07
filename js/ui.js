@@ -5,8 +5,8 @@ class UI {
     }
 
     displayRepo(repo) {
-
         this.repoElement.innerHTML = '';
+        if(repo === undefined) return;
 
         repo.forEach(item => {
             
