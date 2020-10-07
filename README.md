@@ -1,7 +1,7 @@
 # GitHub Finder Project
 
 
-- Website - [GitHub Finder]()
+- Website - [GitHub Finder](https://mrtarikozturk.github.io/github-repo-finder-application/)
 
 <!-- ![Project Image](project-image-url) -->
 
@@ -38,7 +38,7 @@ You're sections headers will be used to reference location of destination.
 
 
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#github-finder)
 
 ---
 
@@ -50,4 +50,4 @@ You're sections headers will be used to reference location of destination.
 - Website - [............](............) 
 -->
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#github-finder)
